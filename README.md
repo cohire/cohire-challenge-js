@@ -9,7 +9,11 @@ The developers at virtualCompany LLC have written some rules in JSON format that
 - https://by56lc60o1.execute-api.eu-west-1.amazonaws.com/dev/rule2
 - https://by56lc60o1.execute-api.eu-west-1.amazonaws.com/dev/rule3
 
-The developers would like you to complete the validation function in order to validate all the mock requests in the `requestsArray` array against the rules that they have written. There are a total of 8 request objects in said array with the following properties: `originalUrl` which maps to the `path` property in the rules, `query` which maps to the query parameters, `body` which maps to the body parameters and `method` which maps to the request method. 
+The developers would like you to complete the validation function in order to validate all the mock requests in the `requestsArray` array against the rules that they have written. There are a total of 8 request objects in said array with the following properties: 
+- `originalUrl` which maps to the `path` property in the rules
+- `query` which maps to the query parameters
+- `body` which maps to the body parameters
+- `method` which maps to the request method. 
 
 The validation will need to check for the following:
 
